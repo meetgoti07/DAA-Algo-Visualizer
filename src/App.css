@@ -1,0 +1,61 @@
+/* General container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the viewport */
+    text-align: center;
+}
+
+/* Card container */
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center
+}
+
+/* Individual card styling */
+.card {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 150px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Card link */
+.card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Style for the heading */
+h1 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    color: #333;
+}
