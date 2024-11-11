@@ -20,6 +20,20 @@ export const Home = () => {
                     </Link>
                 </div>
             </div>
+            <div className="card-container">
+                <div className="card">
+                    <Link to="/Bubble-sort" className="card-link">
+                        <h2>Bubble Sort Visualizer</h2>
+                        <p>Visualize the Bubble Sort algorithm.</p>
+                    </Link>
+                </div>
+                <div className="card">
+                    <Link to="/Factorial-tree" className="card-link">
+                        <h2>Factorial Tree Visualizer</h2>
+                        <p>Visualize the Recursive Factorial Algorithm</p>
+                    </Link>
+                </div>
+            </div>
 
         </div>
 
